@@ -1,11 +1,11 @@
 # Docker Image for Counter-Strike Source
 
-[![Docker Stars](https://img.shields.io/docker/stars/foxylion/steam-css.svg?style=flat-square)](https://hub.docker.com/r/foxylion/steam-css/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/foxylion/steam-css.svg?style=flat-square)](https://hub.docker.com/r/foxylion/steam-css/)
+[![Docker Stars](https://img.shields.io/docker/stars/vagabondan/steam-css.svg?style=flat-square)](https://hub.docker.com/r/vagabondan/steam-css/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/vagabondan/steam-css.svg?style=flat-square)](https://hub.docker.com/r/vagabondan/steam-css/)
 
 This docker image provides a preconfigured Counter-Strike Source server with several plugins.
 
-The Docker image in the Docker Hub can be found [here](https://hub.docker.com/r/foxylion/steam-css/).
+The Docker image in the Docker Hub can be found [here](https://hub.docker.com/r/vagabondan/steam-css/).
 
 List of used plugins:
 - [metamod:source v1.10.6](http://www.metamodsource.net/downloads/)
@@ -23,7 +23,7 @@ docker run -d --name css-server-27015 \
            -p 27015:27015 -p 27015:27015/udp -p 1200:1200 \
            -p 27005:27005/udp -p 27020:27020/udp -p 26901:26901/udp \
            -e RCON_PASSWORD=mypassword \
-           foxylion/steam-css
+           vagabondan/steam-css
 ```
 
 ## Restart the container
